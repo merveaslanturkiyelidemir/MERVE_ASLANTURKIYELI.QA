@@ -1,0 +1,66 @@
+{
+    "company": {
+        "type": "xpath",
+        "value": "//*[@id='navbarDropdownMenuLink'][normalize-space()='Company']"
+    },
+    "career": {
+        "type": "xpath",
+        "value": "//a[normalize-space()='Careers']"
+    },
+    "seeAllTeams": {
+        "type": "xpath",
+        "value": "//a[@class='btn btn-outline-secondary rounded text-medium mt-5 mx-auto py-3 loadmore']"
+    },
+    "searchBox": {
+        "type": "id",
+        "value": "searchBox"
+    },
+    "acceptCookies": {
+        "type": "id",
+        "value": "wt-cli-accept-all-btn"
+    },
+    "AllTeamsBlock": {
+        "type": "css",
+        "value": ".elementor-element-b6c45b2"
+    },
+    "careerLocationBlock": {
+        "type": "css",
+        "value": ".elementor-element-8ab30be"
+    },
+    "lifeAtInsiderBlock": {
+        "type": "css",
+        "value": ".elementor-element-8ab30be"
+    },
+    "seeAllQAjobs": {
+        "type": "css",
+        "value": ".btn.btn-outline-secondary.rounded.text-medium.mt-2.py-3.px-lg-5.w-100.w-md-50"
+    },
+    "filterByLocation": {
+        "type": "css",
+        "value": "#select2-filter-by-location-container"
+    },
+    "istanbulTurkeyFilter": {
+        "type": "xpath",
+        "value": "//*[text()='Istanbul, Turkey']"
+    },
+    "jobTitles": {
+        "type": "xpath",
+        "value": "//*[@id='jobs-list']/div/div/span"
+    },
+    "jobLocations": {
+        "type": "xpath",
+        "value": "//*[@id='jobs-list']/div/div/div"
+    },
+    "jobCard": {
+        "type": "xpath",
+        "value": "//*[@id='jobs-list']/div[1]/div"
+    },
+    "viewRole": {
+        "type": "xpath",
+        "value": "//*[@id='jobs-list']/div[1]/div/a"
+    },
+    "blankPage": {
+        "type": "xpath",
+        "value": "//*[@id='career-position-list']"
+    }
+}
