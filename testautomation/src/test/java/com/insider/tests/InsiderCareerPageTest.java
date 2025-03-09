@@ -31,7 +31,7 @@ public class InsiderCareerPageTest extends BaseTest {
         }, "Verifying QA positions in job list should not throw an exception");
 
         assertDoesNotThrow(() -> {
-            boolean allLocationsValid = elementHelper.verifyTextInElements("jobLocations", "Istanbul, Turkey");
+            boolean allLocationsValid = elementHelper.verifyTextInElements("jobLocations", "Istanbul, Turkiye");
             if (!allLocationsValid) {
                 throw new AssertionError("Some job locations are not in Istanbul, Turkey");
             }

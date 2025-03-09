@@ -41,7 +41,7 @@
     },
     "istanbulTurkeyFilter": {
         "type": "xpath",
-        "value": "//*[text()='Istanbul, Turkey']"
+        "value": "//*[text()='Istanbul, Turkiye']"
     },
     "jobTitles": {
         "type": "xpath",
